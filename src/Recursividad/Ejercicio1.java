@@ -3,7 +3,7 @@ package Recursividad;
 import java.math.BigInteger;
 import java.util.Scanner;
 
-public class Ejercicio01Factorial {
+public class Ejercicio1 {
 
     public static BigInteger factorial(int n) {
         if (n == 0) {                                      // caso base
@@ -19,5 +19,8 @@ public class Ejercicio01Factorial {
         int n = sc.nextInt();
 
         System.out.println("Factorial de " + n + " = " + factorial(n));
+                System.out.println("Factorial de " + n + " = " + factorial(n));
+        sc.close();
+    
     }
 }
